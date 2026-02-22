@@ -13,7 +13,6 @@ import { closeLogInModal, closeSignUpModal } from '@/redux/slices/modalSlices'
 const SidebarUserInfo = () => {
 	const dispacth: AppDispatch = useDispatch()
 	const user = useSelector((state: RootState) => state.user)
-	console.log(user.name)
 
 	async function handleSignUp() {
 		await signOut(auth)
