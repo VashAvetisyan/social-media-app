@@ -9,7 +9,7 @@ import LoadingScreen from "@/components/modals/LoadingScreen";
 export default function Home() {
 	return (
 		<>
-			<div className="text-[#0F1419] min-h-screen max-w-[1400px] mx-auto flex justify-center">
+			<div className="text-[#0F1419] min-h-screen max-w-[1400px] mx-auto flex justify-center pb-[80px]">
 				<Sidebar />
 				<PostFeed />
 				<Widgets />

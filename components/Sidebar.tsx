@@ -7,7 +7,7 @@ const Sidebar = () => {
 
 
 	return (
-		<nav className='h-screen flex flex-col sticky top-0 p-3 xl:ml-20 xl:mr-10'>
+		<nav className='h-screen flex flex-col sticky  top-0 p-3 xl:ml-20 xl:mr-10'>
 			<div className='h-full relative flex flex-col '>
 				<div className='py-3'>
 					<Image src={'/assets/logo.png'} width={56} height={56} alt='logo' />
@@ -20,9 +20,6 @@ const Sidebar = () => {
 					<SidebarLink Icon={BookmarkIcon} text="Bookmarks" />
 					<SidebarLink Icon={UserIcon} text="Profile" />
 					<SidebarLink Icon={EllipsisHorizontalCircleIcon} text="More" />
-					<button className='hidden xl:block bg-[#F4AF01] w-[200px] h-[52px] rounded-full text-white font-medium cursor-pointer shadow-md mt-2'>
-						Button
-					</button>
 				</ul>
 				<SidebarUserInfo />
 			</div>
